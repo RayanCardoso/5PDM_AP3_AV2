@@ -20,7 +20,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.rayancardoso.MiguelTrabalho"
+      "package": "com.quiz.classpdm"
     },
     "web": {
       "favicon": "./assets/favicon.png"

@@ -3,6 +3,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { Alert, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { setHistoricQuestions } from '../utils/storage';
+import { auth } from '../../FirebaseConfig';
 
 export default function QuizQuestions() {
     const navigation = useNavigation();
@@ -19,7 +20,8 @@ export default function QuizQuestions() {
         setQuantityErrors(0);
         setAnswerIncorrectIndex(999);
 
-        const url = 'http://10.0.2.2:5000/api/Question/BySubject/' + subject;
+        const url = 'http://localhost:5000/api/Question/BySubject/' + subject;
+        // const url = 'http://10.0.2.2:5000/api/Question/BySubject/' + subject;
 
         axios.get(url)
           .then(response => {
@@ -43,12 +45,19 @@ export default function QuizQuestions() {
         const newQuestionIndex = questionIndex + 1;
 
         if(newQuestionIndex === 10) {
-            const historyQuestion = {
-                date: new Date(),
-                rightness: quantityErrors ? 10 - parseInt(quantityErrors) : 0
-            }
+            const currentUser = auth.currentUser;
+            
+            if (currentUser) {
+                const userId = currentUser.uid
 
-            await setHistoricQuestions(historyQuestion)
+                const historyQuestion = {
+                    date: new Date(),
+                    rightness: quantityErrors ? 10 - parseInt(quantityErrors) : 0,
+                    userId
+                }
+
+                await setHistoricQuestions(historyQuestion)
+            }
 
             navigation.replace("QuizAcertos", {
                 quantityErrors: quantityErrors

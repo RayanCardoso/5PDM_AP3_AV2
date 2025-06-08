@@ -1,7 +1,7 @@
 import { useFocusEffect, useRoute } from '@react-navigation/native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useCallback, useEffect, useState } from 'react';
-import { Image, StyleSheet, Text, View } from 'react-native';
+import { Image, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { getHistoricQuestions } from '../utils/storage';
 
 export default function QuizHistories() {
@@ -16,13 +16,11 @@ export default function QuizHistories() {
     const getHistoricQuestionsStorage = async () => {
         const quizHistories = await getHistoricQuestions()
 
-        console.log("quizHistories", quizHistories)
-
         setHistoricQuestions(quizHistories || []);
     }
 
     return (
-        <View>
+        <ScrollView>
             {
                 historicQuestions && historicQuestions.length > 0
                 ?
@@ -64,7 +62,7 @@ export default function QuizHistories() {
                     Não foi possível encontrar históricos
                 </Text>
             }
-        </View>
+        </ScrollView>
     )
 };
 

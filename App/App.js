@@ -12,6 +12,7 @@ import QuizHistoriesScreen from './src/screens/QuizHistories';
 import Content from './src/screens/Content';
 import Options from './src/screens/Options';
 import ExplanatoryContent from './src/screens/ExplanatoryContent';
+import Ranking from './src/screens/Ranking';
 
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -21,6 +22,7 @@ function DrawerRoutes() {
     <Drawer.Navigator initialRouteName="Content" >
       <Drawer.Screen options={{headerTitle: 'Histórico', drawerLabel: 'Histórico' }} name="QuizHistories" component={QuizHistoriesScreen} />
       <Drawer.Screen options={{headerTitle: 'Lista de Conteúdos', drawerLabel: 'Lista de Conteúdos' }} name="Content" component={Content} />
+      <Stack.Screen options={{headerTitle: 'Ranking', drawerLabel: 'Ranking' }}  name="Ranking" component={Ranking} />
       <Drawer.Screen name="Sair" options={{headerShown: false}} component={LogoutScreen} />
     </Drawer.Navigator>
   );

@@ -3,6 +3,7 @@ import { View, TextInput, Button, StyleSheet, Text, Alert, TouchableOpacity, Ima
 import { signInWithEmailAndPassword, createUserWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../../FirebaseConfig';
 import cityImage from "../../assets/smart-city.png"
+import { setUserId } from '../utils/storage';
 
 export default function LoginScreen({ navigation }) {
   const [email, setEmail] = useState('');
@@ -10,7 +11,12 @@ export default function LoginScreen({ navigation }) {
 
   const handleLogin = () => {
     signInWithEmailAndPassword(auth, email, senha)
-      .then(() => {navigation.replace('DrawerRoutes');})
+      .then(async (userCredential) => {
+        const user = userCredential.user;
+        setUserId(user.uid)
+
+        navigation.replace('DrawerRoutes');
+      })
       .catch(error => Alert.alert('Erro ao fazer login', error.message));
   };
 
