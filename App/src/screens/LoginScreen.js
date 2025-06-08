@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { View, TextInput, Button, StyleSheet, Text, Alert, TouchableOpacity } from 'react-native';
+import { View, TextInput, Button, StyleSheet, Text, Alert, TouchableOpacity, Image } from 'react-native';
 import { signInWithEmailAndPassword, createUserWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../../FirebaseConfig';
+import cityImage from "../../assets/smart-city.png"
 
 export default function LoginScreen({ navigation }) {
   const [email, setEmail] = useState('');
@@ -15,6 +16,9 @@ export default function LoginScreen({ navigation }) {
 
   return (
     <View style={styles.container}>
+      <View style={{justifyContent: 'center', alignItems: 'center', marginBottom: 30}}>
+        <Image source={cityImage} style={{width: 200, height: 200, resizeMode: 'contain'}} />
+      </View>
       <Text style={styles.title}>Login</Text>
       <TextInput
         style={styles.input}

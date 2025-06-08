@@ -1,15 +1,17 @@
-import { useRoute } from '@react-navigation/native';
+import { useFocusEffect, useRoute } from '@react-navigation/native';
 import { LinearGradient } from 'expo-linear-gradient';
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
 import { getHistoricQuestions } from '../utils/storage';
 
 export default function QuizHistories() {
     const [historicQuestions, setHistoricQuestions] = useState([])
 
-    useEffect(() => {
-        getHistoricQuestionsStorage();
-    }, [])
+    useFocusEffect(
+        useCallback(() => {
+            getHistoricQuestionsStorage();
+        }, [])
+    );
 
     const getHistoricQuestionsStorage = async () => {
         const quizHistories = await getHistoricQuestions()

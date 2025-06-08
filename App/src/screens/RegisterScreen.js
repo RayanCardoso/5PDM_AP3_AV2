@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, TextInput, Button, StyleSheet, Text, Alert, TouchableOpacity } from 'react-native';
+import { View, TextInput, Button, StyleSheet, Text, Alert, TouchableOpacity, Image } from 'react-native';
 import { signInWithEmailAndPassword, createUserWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../../FirebaseConfig';
 
@@ -11,13 +11,16 @@ export default function RegisterScreen({ navigation }) {
     createUserWithEmailAndPassword(auth, email, senha)
       .then(() => {
         Alert.alert('Cadastro realizado com sucesso!');
-        navigation.replace('Quiz');
+        navigation.replace('Options');
       })
       .catch(error => Alert.alert('Erro ao cadastrar', error.message));
   };
 
   return (
     <View style={styles.container}>
+      <View style={{justifyContent: 'center', alignItems: 'center', marginBottom: 30}}>
+        <Image source={cityImage} style={{width: 200, height: 200, resizeMode: 'contain'}} />
+      </View>
       <Text style={styles.title}>Registro</Text>
       <TextInput
         style={styles.input}
