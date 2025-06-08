@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Rayan Home Office\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Rayan Home Office\\.nuget\\packages"
+    ]
+  }
+}

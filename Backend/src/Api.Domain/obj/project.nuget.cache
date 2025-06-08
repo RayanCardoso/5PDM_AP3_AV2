@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "BdfYloWJi2E=",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rayan Home Office\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Rayan Home Office\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Rayan Home Office\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,7 @@
+# Ignorar node_modules dentro da pasta App
+App/node_modules/
+
+# Outras coisas úteis
+.env
+.DS_Store
+*.log
