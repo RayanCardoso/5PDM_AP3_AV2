@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o/eEKoRexcU=",
+  "dgSpecHash": "tc08ZA4B0UOkSIAmzCWeVEw2bLueJhq/JAqYYteWrMZ/wZ+6hIOmaYjpt7kD7lj2GouQ+o7MS0Y0Eh7UXmpHmA==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Data\\Data.csproj",
+  "projectFilePath": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Data\\Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rayan Home Office\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Rayan Home Office\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.5\\microsoft.aspnetcore.cryptography.internal.3.1.5.nupkg.sha512",

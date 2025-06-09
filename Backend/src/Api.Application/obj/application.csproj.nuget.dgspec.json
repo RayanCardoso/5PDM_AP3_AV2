@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Application\\application.csproj": {}
+    "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Application\\application.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Application\\application.csproj": {
+    "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Application\\application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Application\\application.csproj",
+        "projectUniqueName": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Application\\application.csproj",
         "projectName": "application",
-        "projectPath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Application\\application.csproj",
+        "projectPath": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Application\\application.csproj",
         "packagesPath": "C:\\Users\\Rayan Home Office\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Application\\obj\\",
+        "outputPath": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rayan Home Office\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -24,16 +24,15 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.CrossCutting\\CrossCutting.csproj": {
-                "projectPath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.CrossCutting\\CrossCutting.csproj"
+              "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.CrossCutting\\CrossCutting.csproj": {
+                "projectPath": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.CrossCutting\\CrossCutting.csproj"
               },
-              "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Domain\\Domain.csproj"
+              "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Domain\\Domain.csproj"
               },
-              "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Service\\Service.csproj": {
-                "projectPath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Service\\Service.csproj"
+              "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Service\\Service.csproj": {
+                "projectPath": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Service\\Service.csproj"
               }
             }
           }
@@ -42,16 +41,10 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -72,8 +65,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -85,18 +77,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.CrossCutting\\CrossCutting.csproj": {
+    "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.CrossCutting\\CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.CrossCutting\\CrossCutting.csproj",
+        "projectUniqueName": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.CrossCutting\\CrossCutting.csproj",
         "projectName": "CrossCutting",
-        "projectPath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.CrossCutting\\CrossCutting.csproj",
+        "projectPath": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.CrossCutting\\CrossCutting.csproj",
         "packagesPath": "C:\\Users\\Rayan Home Office\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.CrossCutting\\obj\\",
+        "outputPath": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rayan Home Office\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -109,16 +101,15 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Data\\Data.csproj": {
-                "projectPath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Data\\Data.csproj"
+              "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Data\\Data.csproj"
               },
-              "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Domain\\Domain.csproj"
+              "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Domain\\Domain.csproj"
               },
-              "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Service\\Service.csproj": {
-                "projectPath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Service\\Service.csproj"
+              "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Service\\Service.csproj": {
+                "projectPath": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Service\\Service.csproj"
               }
             }
           }
@@ -127,16 +118,10 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -153,8 +138,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -163,18 +147,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Data\\Data.csproj": {
+    "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Data\\Data.csproj",
+        "projectUniqueName": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Data\\Data.csproj",
+        "projectPath": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Data\\Data.csproj",
         "packagesPath": "C:\\Users\\Rayan Home Office\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Data\\obj\\",
+        "outputPath": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rayan Home Office\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -187,10 +171,9 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Domain\\Domain.csproj"
+              "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Domain\\Domain.csproj"
               }
             }
           }
@@ -199,16 +182,10 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -243,8 +220,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -253,18 +229,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Domain\\Domain.csproj": {
+    "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Domain\\Domain.csproj",
+        "projectPath": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Rayan Home Office\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Domain\\obj\\",
+        "outputPath": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rayan Home Office\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -277,7 +253,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -285,16 +260,10 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -307,8 +276,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -317,18 +285,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Service\\Service.csproj": {
+    "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Service\\Service.csproj",
+        "projectUniqueName": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Service\\Service.csproj",
+        "projectPath": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Service\\Service.csproj",
         "packagesPath": "C:\\Users\\Rayan Home Office\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Service\\obj\\",
+        "outputPath": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rayan Home Office\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -341,13 +309,12 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Data\\Data.csproj": {
-                "projectPath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Data\\Data.csproj"
+              "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Data\\Data.csproj"
               },
-              "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Domain\\Domain.csproj"
+              "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Domain\\Domain.csproj"
               }
             }
           }
@@ -356,16 +323,10 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -378,8 +339,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -388,7 +348,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
         }
       }
     }

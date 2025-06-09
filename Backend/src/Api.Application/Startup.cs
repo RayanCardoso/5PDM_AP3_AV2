@@ -40,6 +40,18 @@ namespace application
                 typeof(QuestionProfile),
                 typeof(AnswerProfile)
             );
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("alowAll", builder =>
+                {
+                    builder
+                        .AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader();
+                });
+            });
+
             
             services.AddControllers().AddNewtonsoftJson(options =>
                 options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
@@ -60,6 +72,8 @@ namespace application
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "API ADS");
                 c.RoutePrefix = string.Empty;
             });
+
+            app.UseCors("alowAll"); // <<< ATENÇÃO: aplique aqui
 
             app.UseRouting();
 

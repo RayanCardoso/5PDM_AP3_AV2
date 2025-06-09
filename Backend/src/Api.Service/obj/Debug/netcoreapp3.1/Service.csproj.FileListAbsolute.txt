@@ -85,3 +85,17 @@ C:\Projetos\5PDM_AP7_Completo\Backend\src\Api.Service\obj\Debug\netcoreapp3.1\Se
 C:\Projetos\5PDM_AP7_Completo\Backend\src\Api.Service\obj\Debug\netcoreapp3.1\Service.pdb
 C:\Projetos\5PDM_AP7_Completo\Backend\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csprojAssemblyReference.cache
 C:\Projetos\5PDM_AP7_Completo\Backend\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
+C:\Projetos\5PDM_AP3_AV2\Backend\src\Api.Service\bin\Debug\netcoreapp3.1\Service.deps.json
+C:\Projetos\5PDM_AP3_AV2\Backend\src\Api.Service\bin\Debug\netcoreapp3.1\Service.dll
+C:\Projetos\5PDM_AP3_AV2\Backend\src\Api.Service\bin\Debug\netcoreapp3.1\Service.pdb
+C:\Projetos\5PDM_AP3_AV2\Backend\src\Api.Service\bin\Debug\netcoreapp3.1\Data.dll
+C:\Projetos\5PDM_AP3_AV2\Backend\src\Api.Service\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Projetos\5PDM_AP3_AV2\Backend\src\Api.Service\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Projetos\5PDM_AP3_AV2\Backend\src\Api.Service\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Projetos\5PDM_AP3_AV2\Backend\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csprojAssemblyReference.cache
+C:\Projetos\5PDM_AP3_AV2\Backend\src\Api.Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
+C:\Projetos\5PDM_AP3_AV2\Backend\src\Api.Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
+C:\Projetos\5PDM_AP3_AV2\Backend\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
+C:\Projetos\5PDM_AP3_AV2\Backend\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
+C:\Projetos\5PDM_AP3_AV2\Backend\src\Api.Service\obj\Debug\netcoreapp3.1\Service.dll
+C:\Projetos\5PDM_AP3_AV2\Backend\src\Api.Service\obj\Debug\netcoreapp3.1\Service.pdb

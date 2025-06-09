@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BdfYloWJi2E=",
+  "dgSpecHash": "wS7jNa+kIedtpf2R4K0GrN9hK6ClQowG5U3q383+dVxxNmuuTwMxgy+Nqpt2gIRgclxPDnI66NW1OOuZ1PO6ZQ==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rayan Home Office\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Rayan Home Office\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qZnsYMv5GbE=",
+  "dgSpecHash": "pmva4FHW71T7elp9ev4FNGHWFJ//SGuFI7OTkJz/sCdzuE04+WRi0axQr7wTxrp3KOXSK9I9AuUleWhBF0Vr0g==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Application\\application.csproj",
+  "projectFilePath": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Application\\application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rayan Home Office\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Rayan Home Office\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",

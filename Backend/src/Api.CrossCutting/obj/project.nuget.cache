@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8GHNLdNjhoE=",
+  "dgSpecHash": "2jKzvGmmrNQZsMhV9Uhqa8y65jbMu4pht4zk/RlC3ZsSVOzAuAiKKwFST2ng1B3SbQvlkjSls2e5hDXiBthEow==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.CrossCutting\\CrossCutting.csproj",
+  "projectFilePath": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.CrossCutting\\CrossCutting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rayan Home Office\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Rayan Home Office\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",

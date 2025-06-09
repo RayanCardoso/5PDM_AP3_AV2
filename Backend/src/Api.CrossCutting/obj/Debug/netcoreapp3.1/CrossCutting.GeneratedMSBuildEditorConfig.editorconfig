@@ -1,5 +1,5 @@
 is_global = true
 build_property.RootNamespace = CrossCutting
-build_property.ProjectDir = C:\Projetos\5PDM_AP7_Completo\Backend\src\Api.CrossCutting\
+build_property.ProjectDir = C:\Projetos\5PDM_AP3_AV2\Backend\src\Api.CrossCutting\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

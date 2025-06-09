@@ -9,14 +9,10 @@
           "System.Reflection.Emit": "4.7.0"
         },
         "compile": {
-          "lib/netstandard2.0/AutoMapper.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/AutoMapper.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/AutoMapper.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/AutoMapper.dll": {}
         }
       },
       "Microsoft.CSharp/4.7.0": {
@@ -191,11 +187,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Domain\\Domain.csproj",
+      "projectPath": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\Rayan Home Office\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\5PDM_AP7_Completo\\Backend\\src\\Api.Domain\\obj\\",
+      "outputPath": "C:\\Projetos\\5PDM_AP3_AV2\\Backend\\src\\Api.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rayan Home Office\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -208,7 +204,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -216,16 +211,10 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "AutoMapper": {
             "target": "Package",
@@ -238,8 +227,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -248,7 +236,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
       }
     }
   }
